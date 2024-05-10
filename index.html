@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dongrui Lyu's profile</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="./img/imgs38.jpg" width="100%" alt="">
+            <h3 class="title">Welcome to Dongrui's Profile!</h3>
+            <h3 class="titles">Let's go!!!</h3>
+            <img class="icon" src="./img/down.png" alt="">
+            <div class='ribbon'>
+                <a href='./index.html'><span>Home</span></a>
+                <a href='./about.html'><span>About</span></a>
+
+            </div>
+
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/xuexiao.png" alt="">
+                <span>My College</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/canting.png" alt="">
+                <span>The Campus</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/fengjing.png" alt="">
+                <span>My Campus Life</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/yewan.png" alt="">
+                <span>Campus in the Night</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/imgs15.png" alt="">
+                <span class="introduce_item_title">I studied in ESSEC Business School Singapore Campus</span>
+
+            </div>
+            <div class="introduce_item">
+
+                <span class="introduce_item_titles">Small, but beautiful campus</span>
+                <img class="introduce_item_img" src="./img/imgs36.jpg" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/imgs16.jpg" alt="">
+                <span class="introduce_item_title">Rich campus life, we can do whatever we want (as long as we don't dirty the campus lol)</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">Campus in the evening, beautiful night</span>
+                <img class="introduce_item_img" src="./img/imgs14.jpg" alt="">
+            </div>
+        </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="./video/music.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./img/music_img.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
